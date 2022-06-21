@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hola{
+    color: aqua;
+}
+/* Inicio Header */
+
+.header {
+    height: 10em;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url("../img/portada1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.header h1 {
+    margin: 0px;
+}
+
+.header a {
+    padding: 10px;
+    background-color: rgb(16, 77, 245);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid 1px #ddd;
+}
+
+.contenedor{
+    margin: 0 auto;
+    padding: auto;
+    text-align: center;
+}
+
+.centro, a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border: 3px solid #f59609; 
+    color: #fff;
+}
+ a:hover{
+    background-color: #f59609;
+
+
+}
+
+/* Fin Header */
+
+/* Inicio Productos */
+.products img {
+    border-radius: 5px;
+
+}
+
+.products {
+    width: 80%;
+    margin: auto;
+}
+
+.products td {
+    width: 50%;
+    padding: 2em;
+}
+
+.products img {
+    width: 100%;
+    border: solid 1px #fff;
+}
+
+/* Fin Productos */
+
+/* Inicio Footer */
+.footer {
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(16, 77, 245);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+/* Fin Footer */
