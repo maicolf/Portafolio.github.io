@@ -3,6 +3,25 @@ body {
     background-color: black;
     color: #fff;
 }
+.contenedor{
+    margin: 0 auto;
+    padding: auto;
+    text-align: center;
+}
+
+.centro, a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border: 3px solid #f59609; 
+    color: #fff;
+}
+ a:hover{
+    background-color: #f59609;
+
+
+}
 
 header {
     display: block;
