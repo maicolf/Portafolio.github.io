@@ -1,0 +1,88 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+.navbar{
+  background-color: #121f3d;
+  }
+  .nav-item a {
+    color: #fff;
+  }
+#Hero-Section {
+  background-image: url("../img/slider1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+  .frase {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background-image: url("../img/contacto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+
+}
+.boton{
+   display: table;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.2s ease-in-out all;
+    margin-bottom: 5%;
+}
+
+
+
+/* Mis trabajos */
+#Mis-trabajos{
+  background-color: rgba(23, 139, 240, 0.897);;
+}
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
+footer{
+  background-color: #121f3d;
+}
